@@ -13,6 +13,7 @@
 
 body, 
 html {
+    font-family: "Rubik", sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -35,13 +36,12 @@ html {
 }
 
 .hero-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../images/IMG_20200301_204914.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.55)), url("../images/IMG_20200301_204914.jpg");
     height: 450px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    opacity: 30%;
 }
 
 .hero-text {
@@ -75,4 +75,50 @@ h2 {
 h1 {
     font-family: 'federal_escortregular', sans-serif;
 }
+
+table {
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #444;
+}
+
+caption {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+th {
+    color: #666;
+    border-bottom: 1px dashed #444;
+}
+
+#main-drinks {
+    width: 100%;
+    text-align: center;
+}
+
+#espresso {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+#drip {
+    width: 50%;
+    text-align: center;
+}
+
+#alternatives {
+    width: 100%;
+    text-align: center;
+}
+
+table tr td:first-child {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+}
+
+
 
