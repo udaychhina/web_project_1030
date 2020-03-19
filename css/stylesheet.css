@@ -7,6 +7,71 @@
     font-style: normal;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body, 
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.centered-content,
+.navigation {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.hero-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../images/IMG_20200301_204914.jpg");
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 100;
+    font-size: 150%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.logo {
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+.logo img {
+    float: left;
+    height: 150px;
+}
+.logo-text {
+    float: right;
+}
+
 h1 {
     font-family: 'federal_escortregular', sans-serif;
 }
+
