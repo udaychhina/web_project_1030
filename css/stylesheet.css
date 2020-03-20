@@ -31,6 +31,15 @@ html {
     text-align: center;
 }
 
+.navigation a{
+    text-decoration:none;
+    color:black;
+    padding:25px;
+}
+.navigation a:hover{
+    color:rgb(240,170,67);
+}
+
 .navigation li {
     display: inline-block;
 }
