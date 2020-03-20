@@ -18,7 +18,7 @@ html {
     padding: 0;
     height: 100%;
     color: white;
-    background-color: #fff;
+    background-color: #222;
 }
 
 /* LOGO AND HEADING TEXT IMAGE */
@@ -108,16 +108,32 @@ html {
 /* LEFT MENU BAR */
 
 .left-menu-nav {
-    width: 160px;
-    background-color: violet;
-    position: absolute;
+    float: left;
+    position: relative;
     text-align: center;
-    margin-right: 0;
-    margin-left: 100%;
+    top: 50px;
+    left: 50px;
 }
 
 .left-menu-nav a {
+    text-decoration: none;
+}
+
+.left-menu-nav a:link,
+.left-menu-nav a:visited {
+    color: white;
+}
+
+.left-menu-nav a:hover,
+.left-menu-nav a:active {
+    border-bottom: 1px solid rgb(240,170,67);
+}
+
+.left-menu-nav li {
     display: block;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #333;
 }
 
 h2 {
@@ -126,6 +142,10 @@ h2 {
 
 h1 {
     font-family: 'federal_escortregular', sans-serif;
+}
+
+.menu-section {
+    padding-top: 10px;
 }
 
 /* TABLE AND MISC STUFF */
