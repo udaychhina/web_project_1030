@@ -31,7 +31,8 @@ html {
 .logo img {
     display: block;
     height: 150px;
-    margin-left: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* NAVIGATION BAR */
@@ -70,7 +71,7 @@ html {
 .navigation li {
     list-style-type: none;
     display: inline-block;
-    padding-right: 200px;
+    padding-right: 15%;
 }
 
 .navigation li:last-child {
@@ -80,12 +81,13 @@ html {
 /* HERO IMAGE AND TEXT */
 
 .hero-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.55)), url("../images/IMG_20200301_204914.jpg");
-    height: 450px;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.77)), url("../images/IMG_20200301_204914.jpg");
+    height: 400px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.459);
 }
 
 .hero-text {
@@ -105,10 +107,16 @@ html {
     float: left;
     position: relative;
     text-align: center;
-    top: 50px;
-    left: 50px;
+    top: 60px;
+    left: 60px;
     font-size: 110%;
     text-transform: uppercase;
+}
+.left-menu-nav ul {
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.259);
+
 }
 
 .left-menu-nav a {
@@ -118,6 +126,9 @@ html {
 .left-menu-nav a:link,
 .left-menu-nav a:visited {
     color: white;
+    border-bottom: 0px solid rgb(240,170,67);
+    transition: border-bottom 0.4s;
+    transition-timing-function: ease-in-out;
 }
 
 .left-menu-nav a:hover,
@@ -138,11 +149,30 @@ h2 {
 
 h1 {
     font-family: 'Rubik', sans-serif;
+    font-size: 300%;
+    font-weight: 100;
 }
 
-.menu-section {
-    padding-top: 10px;
-    border-bottom: 3px solid rgb(240,170,67);
+h3 {
+    text-transform: uppercase;
+    color: rgb(240,170,67);
+    font-weight: 100;
+    border-bottom: 1px solid white;
+    font-size: 120%;
+}
+
+.section {
+    padding-bottom: 30px;
+}
+
+.section:first-of-type {
+    padding-top: 30px;
+}
+
+.section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* TABLE AND MISC STUFF */
@@ -191,6 +221,9 @@ table tr td:first-child {
 
 footer {
     text-align: center;
+    background-color: #333;
+    padding: 40px 0px;
+    box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.459);
 }
 
 
