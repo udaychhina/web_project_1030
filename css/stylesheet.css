@@ -17,6 +17,29 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
+    color: white;
+    background-color: #222;
+}
+
+/* LOGO AND HEADING TEXT IMAGE */
+
+.logo {
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+.logo img {
+    display: block;
+    height: 150px;
+    margin-left: 20%;
+}
+
+/* NAVIGATION BAR */
+.along-banner {
+    background-color: #333;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 120%;
 }
 
 .centered-content,
@@ -26,23 +49,35 @@ html {
     margin-right: auto;
 }
 
+.centered-content {
+    padding: 10px;
+}
+
 .navigation {
     list-style-type: none;
     text-align: center;
 }
 
 .navigation a{
-    text-decoration:none;
-    color:black;
-    padding:25px;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
 }
-.navigation a:hover{
-    color:rgb(240,170,67);
+.navigation a:hover {
+    color: rgb(240,170,67);
 }
 
 .navigation li {
+    list-style-type: none;
     display: inline-block;
+    padding-right: 200px;
 }
+
+.navigation li:last-child {
+    padding-right: 0px;
+}
+
+/* HERO IMAGE AND TEXT */
 
 .hero-image {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.55)), url("../images/IMG_20200301_204914.jpg");
@@ -64,26 +99,50 @@ html {
     font-size: 150%;
 }
 
+/* LEFT MENU BAR */
+
+.left-menu-nav {
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 50px;
+    left: 50px;
+}
+
+.left-menu-nav a {
+    text-decoration: none;
+}
+
+.left-menu-nav a:link,
+.left-menu-nav a:visited {
+    color: white;
+}
+
+.left-menu-nav a:hover,
+.left-menu-nav a:active {
+    border-bottom: 1px solid rgb(240,170,67);
+}
+
+.left-menu-nav li {
+    display: block;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #333;
+}
+
 h2 {
     text-align: center;
-}
-
-.logo {
-    padding-top: 20px;
-    overflow-y: auto;
-}
-
-.logo img {
-    float: left;
-    height: 150px;
-}
-.logo-text {
-    float: right;
 }
 
 h1 {
     font-family: 'federal_escortregular', sans-serif;
 }
+
+.menu-section {
+    padding-top: 10px;
+}
+
+/* TABLE AND MISC STUFF */
 
 table {
     margin-bottom: 30px;
@@ -93,10 +152,11 @@ table {
 caption {
     margin-bottom: 20px;
     font-weight: bold;
+    color: rgb(240,170,67);
 }
 
 th {
-    color: #666;
+    color: #aaa;
     border-bottom: 1px dashed #444;
 }
 
