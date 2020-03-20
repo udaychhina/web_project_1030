@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Coffee Monster</title>
 	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div id="wrapper">
@@ -40,12 +41,38 @@
 			<div class="centered-content">
 				<div class="section contact-form">
 					<h3>queries?</h3>
-					<p>Custom cakes? Yes! Catering? Yes! </p>
+					<p>Custom cakes? Yes! Catering? Yes! Birthdays, Events or Reservations? Yes! Contact us with the details below and we'll get back to you as soon as possible!</p>
+					<form method="POST">
+						<fieldset>
+							<label for="name">Name: </label>
+							<input type="text" name="name" id="name" required><br>
+							<label for="email">E-mail: </label>
+							<input type="E-mail" name="email" id="email" required><br>
+							<label for="number">Number: </label>
+							<input type="text" name="number" id="number" required><br>
+							<label for="question">What can we help you with? </label>
+							<textarea name="question" id="question" rows="4" cols="20"></textarea>
+							<input type="submit" id="submit">
+						</fieldset>
+					</form>
 				</div>
 			</div>
 		</main>
 		<footer>
-			Place holder for contact information
+			<div class="centered-content">
+				<div class="left">
+					<p>
+						Email: <a href="mailto:coffee@coffeemonster.com">placeholder@coffeemonster.ca</a><br>
+						Phone: +1&mdash;(604)&mdash;123&mdash;4567<br>
+						Address: 15281 101 Ave, Surrey, BC V3R 8X7
+					</p>
+				</div>
+				<div class="right">
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-instagram"></a>
+				</div>
+			</div>
 		</footer>
 	</div>
 </body>
