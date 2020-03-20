@@ -107,6 +107,8 @@ html {
     text-align: center;
     top: 50px;
     left: 50px;
+    font-size: 110%;
+    text-transform: uppercase;
 }
 
 .left-menu-nav a {
@@ -135,21 +137,23 @@ h2 {
 }
 
 h1 {
-    font-family: 'federal_escortregular', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .menu-section {
     padding-top: 10px;
+    border-bottom: 3px solid rgb(240,170,67);
 }
 
 /* TABLE AND MISC STUFF */
 
 table {
     margin-bottom: 30px;
-    border-bottom: 1px dashed #444;
+    /* border-bottom: 1px dashed #444; */
 }
 
 caption {
+    margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bold;
     color: rgb(240,170,67);
