@@ -36,9 +36,9 @@ html {
 
 /* NAVIGATION BAR */
 .along-banner {
-    background-color: #222;
-    padding-top: 20px;
-    padding-bottom: 5px;
+    background-color: #333;
+    padding-top: 1px;
+    padding-bottom: 1px;
     font-size: 120%;
 }
 
@@ -47,7 +47,6 @@ html {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #222;
 }
 
 .centered-content {
@@ -60,12 +59,12 @@ html {
 }
 
 .navigation a{
-    text-decoration:none;
-    color:black;
-    padding:25px;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
 }
-.navigation a:hover{
-    color:rgb(240,170,67);
+.navigation a:hover {
+    color: rgb(240,170,67);
 }
 
 .navigation li {
