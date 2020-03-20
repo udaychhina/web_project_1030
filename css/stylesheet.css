@@ -21,6 +21,11 @@ html {
     background-color: #222;
 }
 
+p {
+    letter-spacing: 0.2px;
+    line-height: 130%;
+}
+
 /* LOGO AND HEADING TEXT IMAGE */
 
 .logo {
