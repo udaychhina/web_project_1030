@@ -325,3 +325,10 @@ footer > .centered-content {
     text-decoration: none;
     margin: 5px 2px;
 }
+
+p a{
+    text-decoration:none;
+    color: white;
+    font-weight: lighter;}
+    
+ h3 {font-weight: bold;}
