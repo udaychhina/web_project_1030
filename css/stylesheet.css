@@ -326,9 +326,15 @@ footer > .centered-content {
     margin: 5px 2px;
 }
 
-p a{
+p a {
     text-decoration:none;
     color: white;
-    font-weight: lighter;}
+    font-weight: lighter;
+}
     
- h3 {font-weight: bold;}
+ h3 {
+    font-weight: bold;
+}
+
+/* Media queries */
+
