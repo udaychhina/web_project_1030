@@ -6,6 +6,7 @@
 	<title>Coffee Monster</title>
 	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../project.js"></script>
 </head>
 <body>
 	<div id="wrapper">
@@ -23,12 +24,26 @@
 			</div>
 		</header>
 		<nav>
-            <div class="along-banner">
+			<div class="along-banner">
 				<ul class="navigation">
+					<li id="home-link"><a href="../index.html">Home</a></li>
 					<li><a href="about.html">About Us</a></li>
 					<li><a href="../menu_page/menu.html">Menu</a></li>
 					<li><a href="../contact_page/contact.html">Contact Us</a></li>
 				</ul>
+			</div>
+            <div class="mobile-nav">
+				<div class="centered-content">
+					<a href="../index.html">Home</a>
+					<div id="menu-links">
+						<a href="about.html">About</a>
+						<a href="../menu_page/menu.html">Menu</a>
+						<a href="../contact_page/contact.html">Contact</a>
+					</div>
+					<a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+						<i class="fa fa-bars"></i>
+					</a>
+				</div>
 			</div>
 		</nav>
 		<main>
@@ -40,14 +55,14 @@
 				</div>
 			</div>
 			<div class="centered-content">
+				<div class="section about">
+					<h3>our story</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloremque neque error distinctio expedita fuga, exercitationem repudiandae eum. Cumque maiores maxime officiis veniam itaque necessitatibus quae similique deleniti, vitae voluptatem? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto accusamus reprehenderit provident dicta minus unde, iusto minima qui dignissimos perspiciatis necessitatibus, optio eius exercitationem pariatur sapiente similique asperiores sequi officia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur nobis ipsum excepturi voluptatum perspiciatis inventore magni numquam quia dolores ut tempore fugiat eos, ea impedit itaque tempora aut ullam dignissimos?</p>
+				</div>
 				<div class="section roasters">
 					<img src="http://placekitten.com/200/200" alt="placeholder for coffee roasters image" height="200" width="200">
 					<h3>republica roasters</h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis quas necessitatibus, temporibus fugit facere quasi odit ipsam nemo? Sapiente, ab culpa totam exercitationem quas obcaecati saepe quos quidem dolores!</p>
-				</div>
-				<div class="section about">
-					<h3>our story</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloremque neque error distinctio expedita fuga, exercitationem repudiandae eum. Cumque maiores maxime officiis veniam itaque necessitatibus quae similique deleniti, vitae voluptatem? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto accusamus reprehenderit provident dicta minus unde, iusto minima qui dignissimos perspiciatis necessitatibus, optio eius exercitationem pariatur sapiente similique asperiores sequi officia! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur nobis ipsum excepturi voluptatum perspiciatis inventore magni numquam quia dolores ut tempore fugiat eos, ea impedit itaque tempora aut ullam dignissimos?</p>
 				</div>
 			</div>
 		</main>

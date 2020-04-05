@@ -6,6 +6,7 @@
 	<title>Coffee Monster</title>
 	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../project.js"></script>	
 </head>
 <body>
 	<div id="wrapper">
@@ -25,11 +26,25 @@
 		<nav>
 			<div class="along-banner">
 				<ul class="navigation">
+					<li id="home-link"><a href="../index.html">Home</a></li>
 					<li><a href="../about_page/about.html">About Us</a></li>
 					<li><a href="../menu_page/menu.html">Menu</a></li>
 					<li><a href="contact.html">Contact Us</a></li>
 				</ul>
-			</div>	
+			</div>
+			<div class="mobile-nav">
+				<div class="centered-content">
+					<a href="../index.html">Home</a>
+					<div id="menu-links">
+						<a href="../about_page/about.html">About</a>
+						<a href="menu.html">Menu</a>
+						<a href="../contact_page/contact.html">Contact</a>
+					</div>
+					<a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+						<i class="fa fa-bars"></i>
+					</a>
+				</div>
+			</div>
 		</nav>
 		<main>
 			<div class="hero-image">
