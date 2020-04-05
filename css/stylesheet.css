@@ -325,6 +325,9 @@ th {
     text-align: center;
 }
 
+#info-icecream td {
+    text-align: center;
+}
 
 #espresso {
     width: 50%;
@@ -381,6 +384,10 @@ th {
     text-align:center;
     width:100%;
 }
+
+#merch td {
+    width: 50%;
+}
 #drip {
     width: 50%;
     text-align: center;
@@ -428,7 +435,6 @@ input[type=submit] {
     padding: 5px;
     margin-top: 10px;
     cursor: pointer;
-
 }
 
 input[type=text],
@@ -641,6 +647,7 @@ h3 {
         overflow: hidden;
         position: relative;
         background-color: #333;
+        display: block;
     }
 
     .mobile-nav a {
@@ -683,7 +690,7 @@ h3 {
     }
     
     label {
-        float: left;
+        float: none;
         text-align: right;
         width: 260px;
         margin-right: 5px;
@@ -736,7 +743,13 @@ h3 {
         font-size: 80%;
     }
 
+    iframe {
+        display: none;
+    }
 
+    #submit {
+        margin-left: 0; 
+    }
 }
 
 @media screen and (max-width: 375px) {
