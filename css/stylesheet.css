@@ -215,6 +215,55 @@ th {
     float: left;
 }
 
+#cakes{
+    width:50%;
+    text-align: center;
+    float:left
+}
+
+#pastries{
+    width:50%;
+    text-align:center;
+}
+
+#icecream{
+    width:50%;
+    text-align:center;
+    float: left;
+}
+
+#macarons{
+    width:50%;
+    text-align:center;
+}
+#sandwich{
+    width:50%;
+    text-align:center;
+    float: left;
+}
+
+#customcake{
+    float:left;
+    text-align:center;
+    width:100%;
+}
+
+#oatmeal{
+    width:50%;
+    text-align:center;
+}
+
+#featured{
+    text-align:center;
+    width:100%;
+}
+#featured td{
+    text-align:center;
+}
+#merch{
+    text-align:center;
+    width:100%;
+}
 #drip {
     width: 50%;
     text-align: center;
